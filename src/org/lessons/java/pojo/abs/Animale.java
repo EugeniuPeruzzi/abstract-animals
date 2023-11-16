@@ -10,7 +10,7 @@ public abstract class Animale {
 	}
 	
 	public void dormi() {
-		System.out.println("Zzzzz");
+		System.out.println( getName() + " Zzzzz");
 	}
 	//ABSTRACTS
 	public abstract void verso();
